@@ -1,0 +1,25 @@
+FilmNow
+---
+- filmes : Filme [100]
+- hotList: Filme[10]
+---
++ adicionarFilme (): String
++ visualizarFilme (): String
++ detalhaFilme (): String
++ mostraTodos (): String
++ sair (): void 
++ atribuirHotList (): String
++ exibirHotList (): String
++ removerHotList (): String
+---
+Filme
+association FilmNow
+---
+- nome: String
+- ano: int
+- local: String
+---
++ Filme(nome: String, ano: int, local: String)
++ getNome(): String
++ equals(o: object): boolean
+---
